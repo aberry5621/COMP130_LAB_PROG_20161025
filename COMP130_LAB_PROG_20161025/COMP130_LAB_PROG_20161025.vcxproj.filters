@@ -18,12 +18,12 @@
     <ClCompile Include="program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Rectangle.cpp">
+    <ClCompile Include="implementation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Rectangle.h">
+    <ClInclude Include="geometricShapesH.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
