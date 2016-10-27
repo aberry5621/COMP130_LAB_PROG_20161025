@@ -26,19 +26,19 @@ void Circle::setRadius(double p_radius) {
 
 // rectangle
 Rectangle::Rectangle() {
-	double width = 1.0;
-	double length = 1.0;
+	m_width = 1.0;
+	m_length = 1.0;
 }
 
 Rectangle::Rectangle(double p_width, double p_length) {
-	width = p_width;
-	length = p_length;
+	m_width = p_width;
+	m_length = p_length;
 }
 
-double get_area(double p_width, double p_length) {
+double Rectangle::get_area(double p_width, double p_length) {
 	return p_width * p_length;
 }
 
-double get_perimeter(double p_width, double p_length) {
+double Rectangle::get_perimeter(double p_width, double p_length) {
 	return p_width * 2 + p_length * 2;
 }

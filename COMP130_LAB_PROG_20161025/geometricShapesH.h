@@ -4,6 +4,7 @@
 #define geometricShapesH_h
 
 class Circle {
+
 public:
 	
 	Circle();
@@ -23,17 +24,15 @@ private:
 
 class Rectangle {
 
-	public: 
+public: 
 
-		double length, width;
+	Rectangle();
 
-		Rectangle();
+	Rectangle(double p_length, double p_width);
 
-		Rectangle(double, double);
+	double get_area();
 
-		double get_area();
-
-		double get_perimeter();
+	double get_perimeter();
 
 };
 
