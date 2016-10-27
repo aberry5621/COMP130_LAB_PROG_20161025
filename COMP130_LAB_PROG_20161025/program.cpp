@@ -5,12 +5,17 @@
 // purpose: placeholder for lab ex
 
 #include <iostream>
+#include "Rectangle.h"
 using namespace std;
 
 
 int main() {
 
-	cout << "Heya";
+	cout << "Get rect";
+
+	Rectangle rectangle;
+
+	cout << rectangle.length;
 
 	return 0;
 }
