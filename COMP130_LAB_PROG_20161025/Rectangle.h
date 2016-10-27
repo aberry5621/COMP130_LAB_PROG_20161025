@@ -1,3 +1,5 @@
+// Header File
+
 #ifndef Rectangle_h
 #define Rectangle_h
 

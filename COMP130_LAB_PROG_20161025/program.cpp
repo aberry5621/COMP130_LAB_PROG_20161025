@@ -11,9 +11,9 @@ using namespace std;
 
 int main() {
 
-	cout << "Get rect";
+	cout << "Get rect length: ";
 
-	Rectangle rectangle;
+	Rectangle rectangle(2, 4);
 
 	cout << rectangle.length;
 

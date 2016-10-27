@@ -1,3 +1,5 @@
+// Implementation File
+
 // include the header file
 #include "Rectangle.h"
 
@@ -11,6 +13,6 @@ Rectangle::Rectangle(double l, double w) {
 	width = w;
 }
 
-double get_perimeter() {
-	return length * 2 + width * 2;
+double get_perimeter(double p_length, double p_width) {
+	return p_length * 2 + p_width * 2;
 }
